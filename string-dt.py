@@ -46,3 +46,13 @@ for str in my_string:
     if(str == 'r'):
       count += 1
 print(count, "letter 'r' found")
+
+
+#---- Append value with format Not working need to check----#
+#print('This is {} working in {}', format({"krishna", "PTG"}))
+
+#--- check text available in the given string----#
+isTrue = 'pro' in my_string
+print("Text avaliable: ", isTrue)     # true
+isTrue = 'hello' in my_string
+print("Text avaliable: ", isTrue)     # false
