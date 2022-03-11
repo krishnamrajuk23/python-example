@@ -22,8 +22,8 @@ print("reverse string ", reverseStr)
 
 # ======= Error ===== #
 # To run this file comment this section
-#my_string[5] = 'a'  # error => 'str' object does not support item assignment
-#del my_string[1]      # error => 'str' object doesn't support item deletion
+# my_string[5] = 'a'  # error => 'str' object does not support item assignment
+# del my_string[1]      # error => 'str' object doesn't support item deletion
 
 # ======= Concatenation of two or more string ===== #
 str1 = "Hello"
@@ -44,7 +44,7 @@ print("concatenate strings with parentheses", ('hello'
 count = 0
 for str in my_string:
     if(str == 'r'):
-      count += 1
+        count += 1
 print(count, "letter 'r' found")
 
 
