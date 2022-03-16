@@ -26,7 +26,7 @@ my_dict['apple'] = 10
 print(my_dict['apple'])
 
 
-#Tuples
+#----------Tuples-----------#
 print('-------Tuples--------')
 myTuples = (1, 2, 3)
 print(len(myTuples))
